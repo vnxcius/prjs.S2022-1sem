@@ -1,0 +1,18 @@
+.tabelas{
+    margin: auto;
+    font-family: arial;
+    text-align: center;
+    width: 100;
+}
+
+#t1{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+}
+
+#t2{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
