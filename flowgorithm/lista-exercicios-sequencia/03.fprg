@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="05267074101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-16 10:48:07 "/>
+        <attribute name="created" value="MDUyNjcwNzQxMDE7TDA0MDAxMDE3NDAzOzIwMjItMDktMTY7IjEwOjE5OjI1ICI7MjM4MA=="/>
+        <attribute name="edited" value="MDUyNjcwNzQxMDE7TDA0MDAxMDE3NDAzOzIwMjItMDktMTY7IjEwOjQ4OjA3ICI7MTsyNDkw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cost, sellprice, stock, profit, profitall" type="Real" array="False" size=""/>
+            <output expression="&quot;Product cost: &quot;" newline="True"/>
+            <input variable="cost"/>
+            <output expression="&quot;Product sell price:&quot;" newline="True"/>
+            <input variable="sellprice"/>
+            <output expression="&quot;Product available in stock&quot;" newline="True"/>
+            <input variable="stock"/>
+            <assign variable="profit" expression="sellprice - cost"/>
+            <assign variable="profitall" expression="(sellprice - cost) * stock"/>
+            <output expression="&quot;The profit for each product is &quot; &amp; profit&amp;&quot;.&quot; &amp;&quot;The profit for all selled stock is &quot; &amp;profitall" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

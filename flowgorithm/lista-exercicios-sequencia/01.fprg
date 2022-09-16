@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vnxcius1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-16 01:54:47 "/>
+        <attribute name="created" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMTY7IjA5OjA4OjM0ICI7MzExNw=="/>
+        <attribute name="edited" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMTY7IjAxOjU0OjQ3ICI7MTszMjIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, height, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Insert base:&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Insert area:&quot;" newline="True"/>
+            <input variable="height"/>
+            <assign variable="area" expression="(base * height) / 2"/>
+            <output expression="&quot;Triangle area is &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

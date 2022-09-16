@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="05267074101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-16 10:15:36 "/>
+        <attribute name="created" value="MDUyNjcwNzQxMDE7TDA0MDAxMDE3NDAzOzIwMjItMDktMTY7IjA5OjUwOjE0ICI7MjM4MQ=="/>
+        <attribute name="edited" value="MDUyNjcwNzQxMDE7TDA0MDAxMDE3NDAzOzIwMjItMDktMTY7IjEwOjE1OjM2ICI7MTsyNDg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="consume, bill, pastmonth, nextmonth" type="Real" array="False" size=""/>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;This program was created to help you to calculate your consume and your bill cost. Please, insert your name:&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Insert past month consume value:&quot;" newline="True"/>
+            <input variable="pastmonth"/>
+            <output expression="&quot;Insert next month consume value:&quot;" newline="True"/>
+            <input variable="nextmonth"/>
+            <assign variable="consume" expression="nextmonth - pastmonth"/>
+            <assign variable="bill" expression="consume * 3"/>
+            <output expression="name &amp; &quot;, your next bill value is &quot; &amp;bill" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

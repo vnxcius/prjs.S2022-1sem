@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="05267074101"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-16 11:06:04 "/>
+        <attribute name="created" value="MDUyNjcwNzQxMDE7TDA0MDAxMDE3NDAzOzIwMjItMDktMTY7IjEwOjU4OjU0ICI7MjM4NQ=="/>
+        <attribute name="edited" value="MDUyNjcwNzQxMDE7TDA0MDAxMDE3NDAzOzIwMjItMDktMTY7IjExOjA2OjA0ICI7MTsyNDgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="con1, con2, con3, average" type="Real" array="False" size=""/>
+            <output expression="&quot;Insert 3 months ago consume value:&quot;" newline="True"/>
+            <input variable="con3"/>
+            <output expression="&quot;Insert 2 months ago consume value:&quot;" newline="True"/>
+            <input variable="con2"/>
+            <output expression="&quot;Insert past month consume value:&quot;" newline="True"/>
+            <input variable="con1"/>
+            <assign variable="average" expression="(con1 + con2 + con3) / 3"/>
+            <output expression="&quot;Your average consume is &quot; &amp;average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
