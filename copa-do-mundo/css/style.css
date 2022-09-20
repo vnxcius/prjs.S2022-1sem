@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    align-items: center;   
+}
+
+header{
+    background-color: #990f31;
+    box-sizing: content-box;
+    margin-bottom: 30px;
+}
+
+
+
+.menu li a{
+    border-radius: 10px;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover{background-color: #a8153a;}
+
+.header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links li a, .dropdown-content a{
+    font-family: rift,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+
+.logo {
+    width: 10%;
+    align-content: center;
+    margin-right: 100px;
+    padding: 15px;
+}
+
+
+.center-inicial h1{
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    max-width: 1500px;
+   
+}
+
+.center-inicial p{
+    padding-top: 10px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 600px;
+    text-indent: 35px;     
+}
+
+.mapacatar{
+    padding-top: 15px;
+    padding-left: 50px;  
+    width: 48%; 
+    float:left;
+    margin-right: 15px;
+}
+
+.copa1930{
+    padding-top: 15px;
+    padding-left: 50px;  
+    width: 80%;  
+}
+
+main{
+    display: flex; 
+    padding-top: 10px;
+}
+
+article.img{
+    width: 200px;
+    height: 200px;      
+}
+
+/* --------- CSS PÁGINA SELEÇÕES -----------*/
+.anchor{
+    display: block;
+    height: 115px; /*same height as header*/
+    margin-top: -115px; 
+    visibility: hidden;
+  }
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    text-align: center;
+    background-color: #FFFFFF;
+    display: none;
+    position: absolute;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a{
+    color: #990f31;
+    background-color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px; 
+}
+
+.dropdown-content a:hover{
+    background-color: #990f31;
+    color: #FFFFFF;
+}
+
+.dropdown-content-sel a:hover{color: #b65870;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown{background-color: #000000;}
+
+.main-pg-default{
+    margin: 0 auto;
+    width: 940px;
+
+}
+
+.h1-sel{
+    text-align: center;
+    font-family: korolev, verdana;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.h2-sel{
+    font-family: korolev, verdana;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.h3-sel{
+    font-family: korolev-condensed, verdana;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sbs{display: flex;}
+
+.p-sel{
+    font-family: verdana,sans-serif;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.p-tecnicos{
+    margin: 7px 0px 0px 60px;
+    font-family: korolev;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.tec-imgs{
+    width: 300px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+
+.button-style{
+    font-family: korolev;
+    font-weight: 700;
+    text-decoration: none;
+    background-color:#990f31;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.table-sel{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+.table-sel th, td{padding: 5px;}
+.table-sel th{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+}
+.table-sel td{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+}
+.table-sel tr:nth-child(even) {background-color: #dddddd;}
+
+.player-table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.player-table th, td{
+    font-family: depot-new-condensed-web,sans-serif;
+    text-align: center;
+    font-style: normal;
+    padding: 10px;
+    
+}
+
+.player-table th{
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
+}
+
+.player-table td{
+    font-weight: 300;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#catar{background-color: #990f31;}
+#equador{background-color: #DCB204;}
+#senegal{background-color: #108a00;}
+#holanda{background-color: #f1680c;}
+#usa{background-color: #3952A7;}
+#ingl{background-color: #242953;}
+#ira{background-color: #1DA03E;}
+#paisg{background-color: #DD282A;}
+#arg{background-color: #89B4E1;}
+#arab{background-color: #14584D;}
+#mex{background-color: #00B280;}
+#pol{background-color: #D2011C;}
+
+/* ---------------------------------------- */
+
+/* CSS PÁGINA GRUPOS */
+#grupos{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    border-collapse: collapse;
+}
+#grupos th, td{
+    padding: 5px;
+}
+#grupos th{
+    color: white;
+    background-color: #a8153a;
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: normal;
+}
+#grupos td{
+    font-family: depot-new-condensed-web,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+}
+
+
+/* ---------------------------------------- */
+
+/* CSS FOOTER */
+footer{
+    background-color: #990f31;
+    margin: 0 auto;
+    align-content: left;
+    text-align: center;
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+.footer{
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.ol-footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.ol-footer li{
+    display: inline-block;
+    text-align: center;
+    font-family: depot-new-web, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.ol-footer li a{
+    color: white;
+    font-family: rift, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.ol-footer li a:hover{
+    background-color: #a8153a;
+    color: #FFFFFF
+}
+
+.p-footer{
+    margin-top: 15px;
+    font-family: depot-new-web, sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    font-style: normal;
+}
+
+#hr-footer{
+    border: 1px solid white;
+}
+
+#senac-logo-footer{
+    padding: 9px;
+    width: 10%;
+}
+
+/* ---------------------------------------- */
