@@ -4,6 +4,8 @@
 Olá, bem vindo(a) a lista de todos meus projetos que realizei durante minha formação em Gestão de TI! 🫡
 <br>
 Esses são todos meu projetos realizados no <em>1° Semestre/2022</em> 🤓👍
+<br>
+### <a href="https://github.com/gtisenac2022-2024">Repositório</a> para projetos realizados em grupo.
 
 ## Linguagens mais utilizadas:
 
