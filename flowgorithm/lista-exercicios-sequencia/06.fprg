@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vnxcius1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 10:04:40 "/>
+        <attribute name="created" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjM7IjA5OjU3OjMyICI7MzExNw=="/>
+        <attribute name="edited" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjM7IjEwOjA0OjQwICI7MTszMjA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name, sector" type="String" array="False" size=""/>
+            <declare name="hrs, min" type="Integer" array="False" size=""/>
+            <output expression="&quot;Hello! To calculate your worked minutes in our company, firstable, please enter your name:&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Ok, &quot; &amp;name &amp;&quot;. Enter your worked hours to transform it in minutes!&quot;" newline="True"/>
+            <input variable="hrs"/>
+            <assign variable="min" expression="hrs * 60"/>
+            <output expression="&quot;Thank you, &quot; &amp;name &amp;&quot;! Your worked minutes is: &quot; &amp;min" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

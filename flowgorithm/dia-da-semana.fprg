@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vnxcius1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 10:54:25 "/>
+        <attribute name="created" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMTAtMDc7IjEwOjE0OjIzICI7MzA5Ng=="/>
+        <attribute name="edited" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMTAtMDc7IjEwOjU0OjI1ICI7MTszMjEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia" type="Integer" array="False" size=""/>
+            <declare name="d1, d2, d3, d4, d5, d6, d7" type="String" array="False" size=""/>
+            <assign variable="d1" expression="&quot;domingo&quot;"/>
+            <assign variable="d2" expression="&quot;segunda-feira&quot;"/>
+            <assign variable="d3" expression="&quot;ter&#231;a-feira&quot;"/>
+            <assign variable="d4" expression="&quot;quarta-feira&quot;"/>
+            <assign variable="d5" expression="&quot;quinta-feira&quot;"/>
+            <assign variable="d6" expression="&quot;sexta-feira&quot;"/>
+            <assign variable="d7" expression="&quot;s&#225;bado&quot;"/>
+            <output expression="&quot;Insira o dia da semana:&quot;" newline="True"/>
+            <input variable="dia"/>
+            <if expression="dia &lt; 1">
+                <then>
+                    <output expression="&quot;Insira um valor entre 1 e 7&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia &gt; 7">
+                <then>
+                    <output expression="&quot;Insira um valor entre 1 e 7&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia=1">
+                <then>
+                    <output expression="&quot;O dia da semana &#233; &quot;&amp; d1" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia=2">
+                <then>
+                    <output expression="&quot;O dia da semana &#233; &quot;&amp; d2" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia=3">
+                <then>
+                    <output expression="&quot;O dia da semana &#233; &quot;&amp; d3" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia=4">
+                <then>
+                    <output expression="&quot;O dia da semana &#233; &quot;&amp; d4" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia=5">
+                <then>
+                    <output expression="&quot;O dia da semana &#233; &quot;&amp; d5" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia=6">
+                <then>
+                    <output expression="&quot;O dia da semana &#233; &quot;&amp; d6" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="dia=7">
+                <then>
+                    <output expression="&quot;O dia da semana &#233; &quot;&amp; d6" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vnxcius1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 10:19:03 "/>
+        <attribute name="created" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjM7IjEwOjA0OjQyICI7MzEwMg=="/>
+        <attribute name="edited" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjM7IjEwOjE5OjAzICI7MTszMjEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="callValue" type="Real" array="False" size=""/>
+            <declare name="min, sec" type="Integer" array="False" size=""/>
+            <output expression="&quot;Hello, welcome to my program! Enter your NAME to know your call bill:&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Ok, &quot; &amp;name &amp;&quot;. Enter your minutes usage:&quot;" newline="True"/>
+            <input variable="min"/>
+            <assign variable="sec" expression="(min * 60)"/>
+            <assign variable="callValue" expression="sec *0.02"/>
+            <output expression="&quot;The call costs R$&quot; &amp;callValue" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vnxcius1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-27 11:02:34 "/>
+        <attribute name="created" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjc7IjEwOjQ0OjQzICI7MzExMQ=="/>
+        <attribute name="edited" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjc7IjExOjAyOjM0ICI7MTszMjE0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yearsW, salary, grat" type="Real" array="False" size=""/>
+            <output expression="&quot;Welcome! Please, inform your years worked here:&quot;" newline="True"/>
+            <input variable="yearsW"/>
+            <output expression="&quot;Now, inform your salary:&quot;" newline="True"/>
+            <input variable="salary"/>
+            <assign variable="grat" expression="(yearsW * 0.01) * salary"/>
+            <output expression="&quot;Your gratification is &quot; &amp;grat &amp;&quot; from your salary. (R$ &quot;&amp;salary&amp;&quot;)&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

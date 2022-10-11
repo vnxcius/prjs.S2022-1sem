@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vnxcius1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 10:20:21 "/>
+        <attribute name="created" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjM7IjA5OjMyOjIxICI7MzEwOA=="/>
+        <attribute name="edited" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjM7IjEwOjIwOjIxICI7MjszMjA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="name" type="String" array="False" size=""/>
+            <declare name="cost, sellPrice, profit" type="Real" array="False" size=""/>
+            <output expression="&quot;Hello! To begin our profit calculation, please enter your name:&quot;" newline="True"/>
+            <input variable="name"/>
+            <output expression="&quot;Alright, &quot;&amp;name &amp;&quot;! Enter the product cost:&quot;" newline="True"/>
+            <input variable="cost"/>
+            <output expression="&quot;Enter the product sell price:&quot;" newline="True"/>
+            <input variable="sellPrice"/>
+            <assign variable="profit" expression="(sellPrice - cost) / sellPrice * 100"/>
+            <output expression="name &amp;&quot;, your profit percentual is &quot; &amp;profit &amp;&quot;%&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

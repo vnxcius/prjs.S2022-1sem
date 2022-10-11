@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="vnxcius1"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-27 11:12:12 "/>
+        <attribute name="created" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjc7IjExOjA0OjI0ICI7MzEwNw=="/>
+        <attribute name="edited" value="dm54Y2l1czE7VlNJTU9OLUxBUFRPUDExOzIwMjItMDktMjc7IjExOjEyOjEyICI7MTszMjEx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="merch, icms, tax" type="Real" array="False" size=""/>
+            <assign variable="icms" expression="0.12"/>
+            <output expression="&quot;Inform the merchandise value:&quot;" newline="True"/>
+            <input variable="merch"/>
+            <assign variable="tax" expression="(merch * icms)"/>
+            <output expression="&quot;The tax value is &quot; &amp;tax" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
